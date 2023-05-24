@@ -227,10 +227,10 @@ new Swiper(".visual_Swiper", {
   slidesPerView: "1.3",
   spaceBetween: 10,
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 5000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
   loop:true,
   breakpoints: {
     "@0.00": {
